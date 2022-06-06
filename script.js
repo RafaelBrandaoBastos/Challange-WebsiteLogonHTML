@@ -117,6 +117,11 @@ const submitSection = (event) => {
     
 const gobackSection = (event) => {
     event.preventDefault();
+    localStorage.removeItem('name');
+    localStorage.removeItem('email');
+    localStorage.removeItem('password');
+    localStorage.removeItem('phone');
+    localStorage.removeItem('birthday');
     section.style.display = 'flex';
     section2.style.display = 'none';
 }
