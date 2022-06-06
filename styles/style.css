@@ -392,8 +392,6 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /*outline-color: orange; 
-    outline-style: solid;*/
 }
 @media only screen and (min-width: 650px) {
     #subcontainer4 {
@@ -406,8 +404,6 @@ body {
     }
 }
 #checkboxSection {
-    /*outline-color: rgb(38, 0, 255);
-    outline-style: solid;*/
     width: 90vw;
     display: block;
     flex-wrap: nowrap;
@@ -423,8 +419,6 @@ body {
 #checkboxAndText {
     display: flex;
     flex-wrap: nowrap;
-    /*outline-color: rgb(36, 228, 132); 
-    outline-style: solid;*/
     width: 90vw; 
 }
 @media only screen and (min-width: 650px) {
