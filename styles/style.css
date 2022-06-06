@@ -643,3 +643,61 @@ body {
         font-size: 25px;
     }
 }
+
+
+
+
+.img2 {   
+    /*outline-color: black;
+    outline-style: solid;*/
+    display: flex;
+    justify-content: center; 
+    width:100vw;
+    height:30vw;
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: 650px) {
+    .img2 {
+        width:100vw;
+        height:124px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .img2 {
+        width:100vw;
+        height:124px;
+    }
+}
+.button2 {
+    background-color: #0dbdbd;
+    border-radius:9px;
+    width: 85vw;
+    height: 15vw; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 6vw;    
+}
+@media only screen and (min-width: 650px) {
+    .button2 {
+        margin-top: 150px;
+        width: 240px;
+        height: 150px;
+        margin-top: 75px;
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .button2 {
+        font-size: 20px;
+        
+    }
+}
+.button2:hover{
+    background-color:rgb(30, 146, 155);
+}
+.button2:active{
+    background-color:rgb(175, 111, 13);
+} 
