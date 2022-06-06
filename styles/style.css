@@ -583,8 +583,6 @@ body {
 
 
 #imageAndTitle {
-    /*outline-color: rgb(25, 43, 204); 
-    outline-style: solid;*/
     display: flex;
     height: 80vw;
     width: 100vw;
@@ -599,8 +597,6 @@ body {
     }
 }
 #subcontainer5 {
-    /*outline-color: black; 
-    outline-style: solid;*/
     height: 20vw;
     width: 100vw;
     display: flex;
@@ -624,8 +620,6 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 6vw;
-    /*outline-color: black; 
-    outline-style: solid;*/
     text-align: center; 
     width:100vw;
     height: 10vw;
@@ -641,8 +635,6 @@ body {
         line-height: 24px;
         width:100vw;
         height: 100px;
-        /*outline-color: black; 
-        outline-style: solid;*/
         text-align: center;
     }
 }
