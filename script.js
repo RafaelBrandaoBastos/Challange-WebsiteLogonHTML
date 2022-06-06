@@ -14,7 +14,6 @@ alertPassword.style.opacity = '0';
 alertPhone.style.opacity = '0';
 alertBirthday.style.opacity = '0'; 
 alertCheckbox.style.opacity = '0'; 
-
 let reName = /^[a-zA-Za-éúíóáÉÚÍÓÁèùìòàçÇÈÙÌÒÀõãñÕÃÑêûîôâÊÛÎÔÂëÿüïöäËYÜÏÖÄ]{5,100}(?: ){1}[a-zA-Za-éúíóáÉÚÍÓÁèùìòàçÇÈÙÌÒÀõãñÕÃÑêûîôâÊÛÎÔÂëÿüïöäËYÜÏÖÄ]{1,100}/; 
 let reEmail = /^[a-z 0-9.]+@[a-z 0-9](?:[a-z 0-9]{0,61}[a-z 0-9])?(?:\.[a-z 0-9](?:[a-z 0-9]{0,61}[a-z 0-9])?)*$/;
 let rePassword = /^[0-9]{6,9}$/;
