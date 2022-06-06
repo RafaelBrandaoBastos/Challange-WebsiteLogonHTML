@@ -581,7 +581,7 @@ body {
 
 
 
-
+/*Second Page Tittle*/
 #imageAndTitle {
     display: flex;
     height: 80vw;
@@ -613,7 +613,6 @@ body {
         height: 100px;
     }
 }
-
 /*Page Tittle*/
 .tittle2 {
     font-family: 'Inter';
@@ -647,9 +646,10 @@ body {
 
 
 
+
+
+/*Page Tittle*/
 .img2 {   
-    /*outline-color: black;
-    outline-style: solid;*/
     display: flex;
     justify-content: center; 
     width:100vw;
@@ -691,8 +691,7 @@ body {
 }
 @media only screen and (max-width: 400px) {
     .button2 {
-        font-size: 20px;
-        
+        font-size: 20px;      
     }
 }
 .button2:hover{
