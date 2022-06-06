@@ -15,14 +15,12 @@ alertPhone.style.opacity = '0';
 alertBirthday.style.opacity = '0'; 
 alertCheckbox.style.opacity = '0'; 
 
-
 let reName = /^[a-zA-Za-éúíóáÉÚÍÓÁèùìòàçÇÈÙÌÒÀõãñÕÃÑêûîôâÊÛÎÔÂëÿüïöäËYÜÏÖÄ]{5,100}(?: ){1}[a-zA-Za-éúíóáÉÚÍÓÁèùìòàçÇÈÙÌÒÀõãñÕÃÑêûîôâÊÛÎÔÂëÿüïöäËYÜÏÖÄ]{1,100}/; 
 let reEmail = /^[a-z 0-9.]+@[a-z 0-9](?:[a-z 0-9]{0,61}[a-z 0-9])?(?:\.[a-z 0-9](?:[a-z 0-9]{0,61}[a-z 0-9])?)*$/;
 let rePassword = /^[0-9]{6,9}$/;
 let rePhone = /^\(?[1-9]{2}\)? ?(?:[2-8]|9[1-9])[0-9]{3}\-?[0-9]{4}$/;
 let reBirthday = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])/;
 let invalid = 1;
-
 
 const submitSection = (event) => {
     event.preventDefault();    
@@ -37,8 +35,7 @@ const submitSection = (event) => {
     console.log(inputName);
 
     if (typeof(Storage) !== "undefined") {
-        
-      
+         
         if (!reName.test(inputName)) {
             alertName.style.opacity = "1";         
             invalid = 1; 
@@ -86,12 +83,10 @@ const submitSection = (event) => {
         if (invalid == 0) {
             section.style.display = 'none';
             section2.style.display = 'flex'; 
-        }
-        
+        }       
     } else {
         alert("Local Storage Failure")
-    }
-      
+    }     
 }
     
 const gobackSection = (event) => {
