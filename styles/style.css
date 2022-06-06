@@ -159,3 +159,74 @@ body {
     display: none;
    
 }
+
+
+
+
+
+/*Main Container*/
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+@media only screen and (min-width: 650px) {
+    #container {
+        display: flex; 
+        flex-flow: row wrap;       
+        align-items: center;
+        height: 700px;
+        width: 617px;
+    }
+}
+
+
+
+
+
+/*Name Container*/
+#subcontainer {   
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
+    height: 6vh;  
+}
+@media only screen and (min-width: 650px) {
+    #subcontainer {
+        width: 610px;
+        height: 95px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;   
+    }
+}
+/*Name*/
+#nameSection {
+    width: 90vw;
+    height: 4vh;
+    display:flex;
+    flex-wrap: wrap; 
+}
+@media only screen and (min-width: 650px) {
+    #nameSection { 
+        width: 720px;
+        max-width: 550px;
+        display:flex;
+        flex-wrap: wrap;   
+    }
+}
+#inputName {
+    width: 90vw;
+    height: 3vh;
+}
+@media only screen and (min-width: 650px) {
+    #inputName {
+        width: 550px;
+        height: 3vh;
+    }
+}
