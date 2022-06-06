@@ -19,64 +19,61 @@
                     <img id = "imgResponsive" src="assets/clouds.png">
                 </div>
 
-            <h1 class="tittle">
+                <h1 class="tittle">
                     Intern Sign Up
-            </h1>
+                </h1>
 
-            <div id="subcontainer">
-                <div id="nameSection">
-                    <p class="text">Full Name</p>
-                    <input id="inputName" placeholder = "more than four digits and least one space" type="text">
-                    <p class ="invalidInput">Fullname invalid</p>
+                <div id="subcontainer">
+                    <div id="nameSection">
+                        <p class="text">Full Name</p>
+                        <input id="inputName" placeholder = "more than four digits and least one space" type="text">
+                        <p class ="invalidInput">Fullname invalid</p>
+                    </div>
                 </div>
-            </div>
-            
-            <div id="subcontainer2">
-                <div id="emailSection">
-                    <p class="text">Email</p>
-                    <input id="inputEmail" placeholder = "something@something.com (without upercase)" type="text">
-                    <p class="invalidInput">Email invalid</p>
+                
+                <div id="subcontainer2">
+                    <div id="emailSection">
+                        <p class="text">Email</p>
+                        <input id="inputEmail" placeholder = "something@something.com (without upercase)" type="text">
+                        <p class="invalidInput">Email invalid</p>
+                    </div>
+                    <div id="passwordSection">
+                        <p class="text">Password</p>
+                        <input id="inputPassword" placeholder = "only numbers between 6 and 9" type="password">
+                        <p class="invalidInput">Password invalid</p>
+                    </div>
                 </div>
-                <div id="passwordSection">
-                    <p class="text">Password</p>
-                    <input id="inputPassword" placeholder = "only numbers between 6 and 9" type="password">
-                    <p class="invalidInput">Password invalid</p>
+
+                <div id="subcontainer3">
+                    <div id="phoneSection">
+                        <p class="text">Phone</p>
+                        <input id="inputPhone" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);"  placeholder="(__) _____-____" type="tel">
+                        <p class="invalidInput">Phone invalid</p>
+                    </div>
+                    <div id="birthdaySection">
+                        <p class="text">Birthday</p>
+                        <input id="inputBirthday" type="date">
+                        <p class="invalidInput">Birthday invalid</p>
+                    </div>
                 </div>
-            </div>
 
-            <div id="subcontainer3">
-                <div id="phoneSection">
-                    <p class="text">Phone</p>
-                    <input id="inputPhone" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);"  placeholder="(__) _____-____" type="tel">
-                    <p class="invalidInput">Phone invalid</p>
+                <div id="subcontainer4">
+                    <div id="checkboxSection">
+                        <div id = "checkboxAndText">
+                            <label class="container">
+                                <input id = "chk" type="checkbox">
+                                <span class="checkmark"></span>
+                                I accept the terms and privacy 
+                            </label>    
+                        </div> 
+                        <p class="invalidInput">Must accept the terms</p>         
+                    </div>
+                    <button class="btn">Register</button>
                 </div>
-                <div id="birthdaySection">
-                    <p class="text">Birthday</p>
-                    <input id="inputBirthday" type="date">
-                    <p class="invalidInput">Birthday invalid</p>
-                </div>
-            </div>
+            </div>     
+        </form>      
+    </section>    
 
-            <div id="subcontainer4">
-                <div id="checkboxSection">
-                    <div id = "checkboxAndText">
-                        <label class="container">
-                            <input id = "chk" type="checkbox">
-                            <span class="checkmark"></span>
-                            I accept the terms and privacy 
-                        </label>    
-                    </div> 
-                    <p class="invalidInput">Must accept the terms</p>         
-                </div>
-                <button class="btn">Register</button>
-            </div>
-
-
-
-
-
-                     
-        </form>        
     <script src="script.js"></script>   
 </body>
 </html>
