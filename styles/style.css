@@ -230,3 +230,85 @@ body {
         height: 3vh;
     }
 }
+
+
+
+
+
+/*Email & Password Container*/
+#subcontainer2 {
+    /*outline-color: rgb(51, 221, 94); 
+    outline-style: solid;*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+    margin-top: 10px;  
+}
+@media only screen and (min-width: 650px) {
+    #subcontainer2 {
+        width: 385px;
+        height: 200px; 
+        margin-bottom: 2vh;
+        margin-top: 0px;
+    }
+}
+/*Email*/
+#emailSection {
+    /*outline-color: blue; 
+    outline-style: solid;*/ 
+    width: 90vw;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 1vh; 
+    margin-top: 30px;
+}
+@media only screen and (min-width: 650px) {
+    #emailSection {
+        /*outline-color: blue; 
+        outline-style: solid;*/  
+        margin: 10px 10px 25px 20px;
+        width: 335px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+#inputEmail {
+    width: 90vw;
+    height: 3vh;
+}
+@media only screen and (min-width: 650px) {
+    #inputEmail {
+      width: 400px;
+      height: 3vh;
+    }
+}
+/*Password*/
+#passwordSection {
+    /*outline-color: blue; 
+    outline-style: solid;*/
+    display:flex;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+@media only screen and (min-width: 650px) {
+    #passwordSection {
+    /*outline-color: blue; 
+    outline-style: solid;*/
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 335px;
+    }
+}
+#inputPassword {
+    width: 90vw;
+    height: 3vh;
+}
+@media only screen and (min-width: 650px) {
+    #inputPassword {
+    width: 400px;
+    height: 3vh;
+    }
+}
