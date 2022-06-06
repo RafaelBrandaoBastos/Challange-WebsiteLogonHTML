@@ -538,18 +538,13 @@ body {
 
 
 
+  /*Scond Page in SPA*/
   .section2 {
-    
-    /*outline-color: rgb(241, 18, 18);*/ 
-    /*outline-style: solid;*/
     background-color: #ffffff;
     width: 100vw;
     height: 100vh;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
     display: none;
-    /*display: flex;*/
-
     flex-wrap: wrap;
     border-radius: 20px;
     justify-content: center;
@@ -557,17 +552,11 @@ body {
 }
 @media only screen and (min-width: 650px) {
     .section2 {
-
-        display: none;
-        
+        display: none;        
         background-color: #ffffff;
         width: 617px;
         height: 763px;
         margin: 0 auto;
-        
-        /*display: flex;*/
-
-
         border-radius: 10px;
         justify-content: center;
         align-items: center;  
