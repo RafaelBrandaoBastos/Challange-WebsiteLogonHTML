@@ -30,6 +30,7 @@ function mask(o, f){
     }
     }, 1);
 }
+
 function mphone(v){
     let r = v.replace(/\D/g,"");
     r = r.replace(/^0/,"");
@@ -120,5 +121,6 @@ const gobackSection = (event) => {
     section.style.display = 'flex';
     section2.style.display = 'none';
 }
+
 button.addEventListener("click", submitSection);
 button2.addEventListener("click", gobackSection);
