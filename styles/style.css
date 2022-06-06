@@ -9,8 +9,6 @@ body {
     width: 100vw;
     height: 100vh;
 }
-
-
 /*Main Section*/
 .section {
     background-color: #ffffff;  
@@ -47,5 +45,38 @@ body {
     #interface {
         height: 763px;
         width: 617px;
+    }
+}
+
+
+
+
+/*Page Logo*/
+.img {   
+    /*outline-color: black; 
+    outline-style: solid;*/
+    display: flex;
+    justify-content: center; 
+    width: 100vw;
+    height: 14vh;
+}
+@media only screen and (min-width: 650px) {
+    .img {
+        /*outline-color: black; */
+        /*outline-style: solid;*/
+        display: flex;
+        justify-content: center; 
+    }
+}
+#imgResponsive {
+    /*outline-color: rgb(0, 0, 0); 
+    outline-style: solid;*/
+    width: 213px;
+    height: 124px;  
+}
+@media only screen and (min-width: 650px) {
+    #imgResponsive {
+        width: 213px;
+        height: 124px;  
     }
 }
