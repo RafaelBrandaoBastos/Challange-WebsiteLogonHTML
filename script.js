@@ -22,6 +22,32 @@ let rePhone = /^\(?[1-9]{2}\)? ?(?:[2-8]|9[1-9])[0-9]{3}\-?[0-9]{4}$/;
 let reBirthday = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])/;
 let invalid = 1;
 
+function mask(o, f){
+    setTimeout(function () {
+    let v = mphone(o.value);
+    if (v != o.value) {
+    o.value = v;
+    }
+    }, 1);
+}
+function mphone(v){
+    let r = v.replace(/\D/g,"");
+    r = r.replace(/^0/,"");
+    if (r.length > 10) {
+    r = r.replace(/^(\d\d)(\d{5})(\d{4}).*/,"($1) $2-$3");
+    }
+    else if (r.length > 5) {
+    r = r.replace(/^(\d\d)(\d{4})(\d{0,4}).*/,"($1) $2-$3");
+    }
+    else if (r.length > 2) {
+    r = r.replace(/^(\d\d)(\d{0,5})/,"($1) $2");
+    }
+    else {
+    r = r.replace(/^(\d*)/, "($1");
+    }
+    return r;
+}
+
 const submitSection = (event) => {
     event.preventDefault();    
     let inputName = document.getElementById("inputName").value; 
