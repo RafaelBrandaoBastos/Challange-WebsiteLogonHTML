@@ -237,8 +237,6 @@ body {
 
 /*Email & Password Container*/
 #subcontainer2 {
-    /*outline-color: rgb(51, 221, 94); 
-    outline-style: solid;*/
     display: flex;
     flex-wrap: wrap;
     width: 90vw; 
@@ -255,10 +253,8 @@ body {
         margin-top: 0px;
     }
 }
-/*Email*/
+/*Email Input*/
 #emailSection {
-    /*outline-color: blue; 
-    outline-style: solid;*/ 
     width: 90vw;
     display:flex;
     flex-wrap: wrap;
@@ -267,8 +263,6 @@ body {
 }
 @media only screen and (min-width: 650px) {
     #emailSection {
-        /*outline-color: blue; 
-        outline-style: solid;*/  
         margin: 10px 10px 25px 20px;
         width: 335px;
         display:flex;
@@ -285,18 +279,14 @@ body {
       height: 3vh;
     }
 }
-/*Password*/
+/*Password Input*/
 #passwordSection {
-    /*outline-color: blue; 
-    outline-style: solid;*/
     display:flex;
     flex-wrap: wrap;
     width: 90vw;
 }
 @media only screen and (min-width: 650px) {
     #passwordSection {
-    /*outline-color: blue; 
-    outline-style: solid;*/
     display:flex;
     flex-wrap: wrap;
     max-width: 335px;
