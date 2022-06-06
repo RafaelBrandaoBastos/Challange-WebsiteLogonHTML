@@ -79,3 +79,84 @@ body {
         height: 124px;  
     }
 }
+
+
+
+
+/*Page Tittle*/
+.tittle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6vw;
+    /*outline-color: black;*/ 
+    /*outline-style: solid;*/
+    text-align: center; 
+    width:100vw;  
+    margin-top: 30px;
+}
+@media only screen and (min-width: 650px) {
+    .tittle {
+        font-family: 'Inter';
+        font-style: normal;
+        margin: 15px 0 15px 0;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 24px;
+        width:620px;
+        /*outline-color: black; */
+        /*outline-style: solid;*/
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .tittle {
+        font-size: 25px;
+    }
+}
+
+/*Page Text*/
+.text {
+    color: black;
+    font-family: 'Nunito'; 
+    font-style: normal;
+    font-size: 4vw;
+    text-align: center;   
+}
+@media only screen and (min-width: 650px) {
+    .text {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .text {
+        font-size: 18px;
+    }
+}
+/*Placeholder*/
+::placeholder { 
+    color: rgb(194, 194, 194);
+    opacity: 1;
+}
+/*Invalid Input Text*/
+.invalidInput {
+    font-family: 'Nunito'; 
+    color: rgb(255, 0, 0);
+    font-size: 3vw;
+    display: flex;
+    opacity: 0;
+}
+@media only screen and (min-width: 650px) {
+    .invalidInput {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .invalidInput {
+        font-size: 15px;
+    }
+}
+.validInput {
+    display: none;
+   
+}
