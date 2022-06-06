@@ -426,3 +426,35 @@ body {
     width: 300px;     
     }
 }
+
+
+
+
+
+/*button*/
+.btn {
+    background-color: #0dbdbd;
+    border-radius: 10px;
+    width: 100vw;
+    height: 7vh; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  @media only screen and (min-width: 650px) {
+    .btn {
+        width: 90px;
+        height: 40px; 
+        display: block;      
+    }
+}
+.btn:hover{
+    background-color:rgb(30, 146, 155);
+}
+.btn:active{
+    background-color:rgb(175, 111, 13);
+} 
