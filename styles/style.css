@@ -333,8 +333,7 @@ body {
     outline-style: solid;*/
     display:flex;
     flex-wrap: wrap;
-    width: 44vw;
-    
+    width: 44vw;  
 }
 @media only screen and (min-width: 650px) {
     #phoneSection {
@@ -379,5 +378,57 @@ body {
     #inputBirthday {
         width: 180px;
         height: 3vh;
+    }
+}
+
+
+
+
+
+
+/*Checkbox & Button Container*/
+#subcontainer4 {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*outline-color: orange; 
+    outline-style: solid;*/
+}
+@media only screen and (min-width: 650px) {
+    #subcontainer4 {
+        width: 530px;
+        height: 3vh;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        padding: 10px 25px 50px 25px;  
+        justify-content: space-between;
+    }
+}
+#checkboxSection {
+    /*outline-color: rgb(38, 0, 255);
+    outline-style: solid;*/
+    width: 90vw;
+    display: block;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 650px) {
+    #checkboxSection {
+        width: 300px;
+        display: block;      
+    }
+}
+#checkboxAndText {
+    display: flex;
+    flex-wrap: nowrap;
+    /*outline-color: rgb(36, 228, 132); 
+    outline-style: solid;*/
+    width: 90vw; 
+}
+@media only screen and (min-width: 650px) {
+    #checkboxAndText {
+    width: 300px;     
     }
 }
