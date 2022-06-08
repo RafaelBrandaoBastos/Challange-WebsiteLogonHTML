@@ -52,8 +52,8 @@ body {
 
 /*Page Logo*/
 .img {   
-    /*outline-color: black; 
-    outline-style: solid;*/
+    outline-color: black; 
+    outline-style: solid;
     display: flex;
     justify-content: center; 
     width: 100vw;
@@ -207,6 +207,8 @@ body {
 }
 /*Name Section*/
 #nameSection {
+    outline-color: black; 
+    outline-style: solid;
     width: 90vw;
     height: 4vh;
     display:flex;
@@ -237,6 +239,8 @@ body {
 
 /*Email & Password Container*/
 #subcontainer2 {
+    outline-color: black; 
+    outline-style: solid;
     display: flex;
     flex-wrap: wrap;
     width: 90vw; 
