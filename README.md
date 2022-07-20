@@ -12,8 +12,8 @@ The client is looking for a digital solution to facilitate the enrollment of peo
 <p>
 The PO wants two screens to be delivered as exemplified in the Figma platform, following responsiveness standards and a good user experience.
 </p>
-<img src = "https://github.com/RafaelBrandaoBastos/Desafio-Formulario/blob/master/assets/PCSUCESS.png"/>
 <img src = "https://github.com/RafaelBrandaoBastos/Desafio-Formulario/blob/master/assets/PC%20ERROR.png"/>
+<img src = "https://github.com/RafaelBrandaoBastos/Desafio-Formulario/blob/master/assets/PCSUCESS.png"/>
 <img src = "https://github.com/RafaelBrandaoBastos/Desafio-Formulario/blob/master/assets/PCDONE.png"/>
 
 # Requirements:
