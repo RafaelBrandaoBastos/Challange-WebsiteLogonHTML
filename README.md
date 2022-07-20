@@ -14,6 +14,8 @@ The PO wants two screens to be delivered as exemplified in the Figma platform, f
 </p>
 <img src = "https://github.com/RafaelBrandaoBastos/Desafio-Formulario/blob/master/assets/PCSUCESS.png"/>
 <img src = "https://github.com/RafaelBrandaoBastos/Desafio-Formulario/blob/master/assets/PC%20ERROR.png"/>
+<img src = "https://github.com/RafaelBrandaoBastos/Desafio-Formulario/blob/master/assets/PCDONE.png"/>
+
 # Requirements:
 Development according to the creation of the designers in figma.
 
